@@ -1,6 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 h3{
     text-align: center;
+    color: rgba(0,0,0,0.8);
 }
+
+section.body{
+    width: 90px;
+    margin: 0 auto;
+}
+
+nav{
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+ul>li{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 8px;
+    width: 80px;
+    text-align: center;
+}
+
+a,
+a:active,
+a:hover
+a:focus
+{
+color: black;
+text-decoration: none;
+}
+
+tr:hover{
+    background-color: yellow;
+}
+
 .card{
     border: solid 1px #999;
     border-radius: 8px;
@@ -8,5 +51,46 @@ h3{
 }
 input[type="text"]{
     width: 200px;
+    height: 25px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0; 
+}
+
+th,
+td{
+    height: 30px;
+}
+table th{
+    background-color: #777;
+    color:white;
+}
+
+tr>td{
+    padding: 8px;
+}
+
+td.id{
+    width: 120px;
+    text-align: center;
+}
+td.company{
+    width: 120px;
+    text-align: center;
+}
+td.price{
+    text-align: right;
+    width: 100px;
+}
+
+
+footer{
+    margin-top: 20px;
+}
+
+section.body{
+    width: 90px;
     height: 25px;
 }
